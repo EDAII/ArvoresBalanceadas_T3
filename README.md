@@ -38,3 +38,34 @@ python app.py
 ```
 ### 4. Acesse a Aplicação:
 Abra seu navegador web e acesse o seguinte endereço: http://127.0.0.1:5000
+
+## Capturas de tela
+
+<div align="center">
+Simulação Ativada 
+<img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/49a103e7-d5c6-4ed0-854e-7dcd3f7eab14" />
+</div>
+<br>
+
+<div align="center">
+Fila de Espera - Sem Processamento 
+<img width="1917" height="910" alt="image" src="https://github.com/user-attachments/assets/45b2cc13-5c71-472c-91cc-51790644c145" />
+</div>
+<br>
+
+<div align="center">
+Fila de Espera - Processada Manualmente 
+<img width="1918" height="926" alt="image" src="https://github.com/user-attachments/assets/ae1629a7-00c2-4078-8ddc-254996eed1ac" />
+</div>
+<br>
+
+
+## Conclusões
+
+O projeto é uma ferramenta didática eficaz para o estudo de estruturas de dados avançadas, movendo o conceito de uma Árvore Red-Black da teoria para uma aplicação prática em que se torna intuitivo entender o *propósito* da RBT (Red-Black Tree): manter a eficiência **$O(\log n)$** em operações dinâmicas de inserção e busca/remoção de máximo/mínimo.
+
+A aplicação permite comparar, implicitamente, o desempenho da RBT com o que seria uma lista não ordenada (que teria performance $O(n)$ para processar a maior prioridade) ou uma lista ordenada (que teria performance $O(n)$ para inserção). O Modo de Simulação demonstra que, mesmo com tarefas chegando e sendo processadas rapidamente, a aplicação continua responsiva, o que prova a eficiência da estrutura de dados escolhida.
+
+## Gravação 
+
+[Link da gravação](https://youtu.be/BBaPR1yHK2E)
