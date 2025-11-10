@@ -1,36 +1,40 @@
-# Repositório Template
-Repositório de Template para os projetos da disciplina 
-```
-Nome do Repositório (Apague este tópico)
-  O nome do repositório deve seguir o padrão <TemaProjeto>_<Nome Projeto>.
-  O nome do projeto deve representar o que foi implementado no mesmo (Ex:
-  Game xyz, Implementações Otimizadas de Algoritmos, Aplicativo xpto)
+# Árvores Balanceadas - Simulador de Fila de Prioridade (RBT)
 
-Os temas de projeto são:  
- - Busca - Algoritmos de busca  
- - Ord_quad - Algoritmos de ordenação O(n²)  
- - Ord_nlogn - Algoritmos de ordenação O(n*log(n))  
- - Arv - Algoritmos de manipulação de Árvores  
- - Grafo - Algoritmos de manipulação de Grafos  
- 
- Ex: Busca_ConcorrenteDaGoogle
-```
 ## Alunos  
 | Matrícula | Nome |  
-|-----------------------|---------------------|  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
+|:----------:|:---------------------------:|  
+| 20/2046229 | Kallyne Macêdo Passos |  
+| 20/0022199 | Leonardo Sobrinho de Aguiar | 
+
 ## Descrição do projeto
-Aqui você deve dizer o objetivo deste projeto e o que realmente foi feito neste repositório.
+
+Este projeto é um visualizador interativo que demonstra o funcionamento de uma **Árvore Red-Black (Rubro-Negra)** utilizada como uma Fila de Prioridade. A aplicação permite que o usuário adicione "tarefas" com diferentes níveis de prioridade, que são armazenadas e gerenciadas pela Árvore Red-Black no backend, com o objetivo de fornecer uma visualização da eficiência de árvores auto-balanceadas. Assim, o simulador mostra como a árvore garante performance de **$O(\log n)$** para inserções e para extrair o item de maior prioridade, mesmo sob carga constante.
+
+A aplicação conta com dois modos de uso:
+1.  **Modo Manual:** O usuário pode adicionar tarefas uma a uma e processar a próxima tarefa de maior prioridade ao clicar em um botão.
+2.  **Modo de Simulação:** Inicia um "teste de estresse" que adiciona tarefas aleatórias e processa a fila automaticamente em intervalos de tempo, demonstrando visualmente a estabilidade da árvore.
+
 ## Guia de instalação
-Aqui devem estar descritas as dependências do projeto (versões de linguagens e ferramentas) e as instruções necessárias para executar o projeto. 
-### Dependências do projeto
-### Como executar o projeto
-## Capturas de tela
-Neste tópico você deve adicionar imagens do funcionamento do projeto.  
- - As imagens devem ser salvas no repositório.
- - Imagens salvas em domínios eternos tendem a ficar indisponíveis e devem ser evitadas.   
-## Conclusões
-Aqui você diz se o algoritmo utilizado foi útil, se tem limitações, etc.
-## Referências
-Caso tenha utilizado algum agoritmo como base, citar o mesmo devidamente para  evitar quaisquer denuncias de plágio.
+
+**Linguagem**: Python, HTML, CSS (Bootstrap) e JavaScript<br>
+**Framework**: Flask<br>
+**Pré-requisitos**: Navegador web, Python e Flask instalados no computador.
+
+### Passo a Passo
+
+### 1. Clonar repositório:
+```bash
+git clone https://github.com/EDAII/Busca_Autocomplete.git
+```
+### 2. Instale as Dependências:
+Abra um terminal ou prompt de comando na pasta do projeto e execute:
+```bash
+pip install Flask 
+```
+### 3. Inicie o Servidor:
+Digite no mesmo terminal:
+```bash
+python app.py
+```
+### 4. Acesse a Aplicação:
+Abra seu navegador web e acesse o seguinte endereço: http://127.0.0.1:5000
